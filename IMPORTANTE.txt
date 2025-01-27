@@ -1,0 +1,13 @@
+Caro professor,
+
+Peço que antes de executar o sistema, execute o banco de dados dele!
+O script está na pasta 'banco de dados, localizada na pasta do sistema e também anexado no classroom
+
+Após isso, insira a senha do login root do seu banco de dados nas classes abaixo:
+
+commit. abastecimento, linha 19
+commit.comProduto, linha 17
+model.Atendente, linha 23
+model.Gerente, linha 23
+view.Servicos linhas 225 e 27
+view.regVenda linhas 179, 230, 270
