@@ -5,7 +5,7 @@ Este projeto foi desenvolvido como parte da conclusão da disciplina de Programa
 ## Tabela de Conteúdos
 - [Instalação](#instalação)
 - [Contribuição](#contribuição)
-- [Licença](#licença)
+- [Licença](LICENSE)
 
 ## Requisitos
 - JDK (preferencialmente o 22)
