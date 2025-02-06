@@ -32,10 +32,6 @@ Para começar a usar este projeto, siga as instruções abaixo:
 
 Gostaria de agradecer aos seguintes desenvolvedores e colaboradores que contribuíram de forma significativa para o desenvolvimento deste projeto:
 
-## Contribuição
-
-Gostaria de agradecer aos seguintes desenvolvedores e colaboradores que contribuíram de forma significativa para o desenvolvimento deste projeto:
-
 - **Pedro Silva**: Responsável pelo desenvolvimento do **backend**, incluindo a implementação das principais funcionalidades e a estruturação dos códigos.
 - **Roberto Junior**: Contribuiu com a **modelagem e otimização do banco de dados SQL**, garantindo o desempenho e a eficiência nas consultas.
 - **Luis Filipe**: Ajudou no desenvolvimento do **frontend**, criando a interface de usuário e garantindo uma experiência visual consistente e funcional.
