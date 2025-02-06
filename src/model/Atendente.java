@@ -20,7 +20,7 @@ public class Atendente extends Funcionario {
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/PostoSuCelso", "root", "Meupapai@022");
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/PostoSuCelso", "root", "cimatec");
             String sql = "INSERT INTO Funcionarios (NomeFunc, Cargo, cpf) VALUES (?, ?, ?)";
             pstmt = conn.prepareStatement(sql);
             pstmt.setString(1, this.getNome());

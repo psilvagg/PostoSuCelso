@@ -35,13 +35,13 @@ public class Informativo extends javax.swing.JFrame {
         setResizable(false);
 
         jLabel1.setFont(new java.awt.Font("Ebrima", 1, 24)); // NOI18N
-        jLabel1.setText("Caro professor,");
+        jLabel1.setText("Caro usuário,");
 
         jLabel2.setFont(new java.awt.Font("Ebrima", 1, 14)); // NOI18N
         jLabel2.setText("Peço que antes de executar o sistema, execute o banco de dados dele!");
 
         jLabel3.setFont(new java.awt.Font("Ebrima", 1, 14)); // NOI18N
-        jLabel3.setText("O script está na pasta 'banco de dados', localizada na pasta do sistema e também anexado no classroom");
+        jLabel3.setText("O script está na pasta \"sql\", localizada na pasta do sistema.");
 
         jLabel5.setFont(new java.awt.Font("Ebrima", 1, 14)); // NOI18N
         jLabel5.setText("Caso já tenha concluído essas etapas, clique em continuar");
@@ -61,25 +61,25 @@ public class Informativo extends javax.swing.JFrame {
         });
 
         jLabel7.setFont(new java.awt.Font("Ebrima", 1, 14)); // NOI18N
-        jLabel7.setText("view.Servicos linhas 225 e 273");
+        jLabel7.setText("view.Servicos - Linhas 225 e 273");
 
         jLabel8.setFont(new java.awt.Font("Ebrima", 1, 14)); // NOI18N
-        jLabel8.setText("commit.abastecimento, linha 19");
+        jLabel8.setText("commit.abastecimento - Linha 19");
 
         jLabel9.setFont(new java.awt.Font("Ebrima", 1, 14)); // NOI18N
-        jLabel9.setText("model.Atendente, linha 23");
+        jLabel9.setText("model.Atendente - Linha 23");
 
         jLabel6.setFont(new java.awt.Font("Ebrima", 1, 14)); // NOI18N
         jLabel6.setText("Após isso, insira a senha do login 'root' do seu banco de dados nas classes abaixo:");
 
         jLabel10.setFont(new java.awt.Font("Ebrima", 1, 14)); // NOI18N
-        jLabel10.setText("commit.comProduto, linha 17");
+        jLabel10.setText("commit.comProduto - Linha 17");
 
         jLabel11.setFont(new java.awt.Font("Ebrima", 1, 14)); // NOI18N
-        jLabel11.setText("model.Gerente, linha 23");
+        jLabel11.setText("model.Gerente - Linha 23");
 
         jLabel12.setFont(new java.awt.Font("Ebrima", 1, 14)); // NOI18N
-        jLabel12.setText("view.regVenda linhas 179, 230, 270");
+        jLabel12.setText("view.regVenda - Linhas 179, 230, 270");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -107,7 +107,7 @@ public class Informativo extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addGap(144, 144, 144)
                         .addComponent(jLabel5)))
-                .addContainerGap(20, Short.MAX_VALUE))
+                .addContainerGap(171, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
