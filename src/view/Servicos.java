@@ -164,7 +164,7 @@ public class Servicos extends javax.swing.JFrame {
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/PostoSuCelso", "root", "cimatec");
+            conn = DriverManager.getConnection("jdbc:mysql://db4free.net:3306/postosenai", "pedrogg", "Chicote1@");
 
             String sql = "SELECT NomeProduto FROM Produtos";
             pstm = conn.prepareStatement(sql);
@@ -225,7 +225,7 @@ public class Servicos extends javax.swing.JFrame {
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/PostoSuCelso", "root", "cimatec");
+            conn = DriverManager.getConnection("jdbc:mysql://db4free.net:3306/postosenai", "pedrogg", "Chicote1@");
 
             String sql = "SELECT * FROM Funcionarios";
             pstm = conn.prepareStatement(sql);
@@ -273,7 +273,7 @@ public class Servicos extends javax.swing.JFrame {
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/PostoSuCelso", "root", "cimatec");
+            conn = DriverManager.getConnection("jdbc:mysql://db4free.net:3306/postosenai", "pedrogg", "Chicote1@");
             String sql = "SELECT Placa, Modelo, TipoComb, LitroAbastecimento FROM Veiculos";
             pstm = conn.prepareStatement(sql);
             rs = pstm.executeQuery();
@@ -321,7 +321,7 @@ public class Servicos extends javax.swing.JFrame {
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/PostoSuCelso", "root", "cimatec");
+            conn = DriverManager.getConnection("jdbc:mysql://db4free.net:3306/postosenai", "pedrogg", "Chicote1@");
             String sql = "SELECT NomeProduto, Preco, QtdEstoque FROM Produtos";
             pstm = conn.prepareStatement(sql);
             rs = pstm.executeQuery();

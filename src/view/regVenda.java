@@ -176,9 +176,9 @@ public class regVenda extends javax.swing.JFrame {
 
             try {
                 Class.forName("com.mysql.cj.jdbc.Driver");
-                conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/PostoSuCelso", "root", "cimatec");
+                conn = DriverManager.getConnection("jdbc:mysql://db4free.net:3306/postosenai", "pedrogg", "Chicote1@");
 
-                String sql = "SELECT Preco, QtdEstoque FROM produtos WHERE NomeProduto = ?";
+                String sql = "SELECT Preco, QtdEstoque FROM Produtos WHERE NomeProduto = ?";
                 pstm = conn.prepareStatement(sql);
                 pstm.setString(1, (String) combNmProd.getSelectedItem());
                 rs = pstm.executeQuery();
@@ -227,7 +227,7 @@ public class regVenda extends javax.swing.JFrame {
 
             try {
                 Class.forName("com.mysql.cj.jdbc.Driver");
-                conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/PostoSuCelso", "root", "cimatec");
+                conn = DriverManager.getConnection("jdbc:mysql://db4free.net:3306/postosenai", "pedrogg", "Chicote1@");
 
                 String sql = "SELECT IDProduto FROM Produtos WHERE NomeProduto = ?";
                 pstm = conn.prepareStatement(sql);
@@ -267,7 +267,7 @@ public class regVenda extends javax.swing.JFrame {
 
             try {
                 Class.forName("com.mysql.cj.jdbc.Driver");
-                conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/PostoSuCelso", "root", "cimatec");
+                conn = DriverManager.getConnection("jdbc:mysql://db4free.net:3306/postosenai", "pedrogg", "Chicote1@");
                 String sql = "INSERT INTO Venda (DataVenda, HoraVenda, IDFunc_Fk, IDProduto_Fk, QtdVendida) VALUES (CURDATE(), CURTIME(), ?, ?, ?)";
                 pstm = conn.prepareStatement(sql);
                 pstm.setInt(1, idFunc);

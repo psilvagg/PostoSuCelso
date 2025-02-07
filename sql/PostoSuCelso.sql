@@ -1,5 +1,5 @@
 create database PostoSuCelso;
-use PostoSuCelso;
+use postosenai;
 
 create table Veiculos (
 	IDVeic bigint auto_increment primary key,

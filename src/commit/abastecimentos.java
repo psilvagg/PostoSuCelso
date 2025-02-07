@@ -16,7 +16,7 @@ public class abastecimentos{
         
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/PostoSuCelso", "root", "cimatec");
+            conn = DriverManager.getConnection("jdbc:mysql://db4free.net:3306/postosenai", "pedrogg", "Chicote1@");
             String sql = "INSERT INTO Veiculos (Placa, Modelo, TipoComb, LitroAbastecimento) VALUES (?, ?, ?, ?)";
             pstmt = conn.prepareStatement(sql);
 
